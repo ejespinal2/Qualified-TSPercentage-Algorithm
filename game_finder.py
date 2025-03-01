@@ -8,7 +8,6 @@ Implement find_qualified_games to return a list of unique qualified gameIDs in w
 """
 
 def find_qualified_games(game_data: list[dict], true_shooting_cutoff: int, player_count: int) -> list[int]:
-	# Replace the line below with your code
 
 	def calculate_true_shooting_percentage(fG2Attempted, fG2Made, fG3Attempted, fG3Made, fTAttempted, ftMade) -> float:
 		total_shots = fG2Attempted + fG3Attempted+ 0.44 * fTAttempted
